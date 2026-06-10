@@ -1,0 +1,28 @@
+.Hero{
+    width: 100vw;
+    min-height: 100vh;
+    background:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) ,url('../../assets/Student.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero-content{
+    padding-top: 150px;
+    text-align: center;
+}
+.Hero-content h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.Hero-content p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.Hero-content .btn img{
+    width: 25px;
+    margin-left: 10px;
+}
