@@ -10,7 +10,7 @@ const About = () => {
         <img src={playIcon} alt="" className="play-icon" />
       </div>
       <div className="about-right">
-        <h3>ABOUT UNIVERSITY</h3>
+        <h3>UNIVERSITY</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>
           A university is an institution of higher learning where students
