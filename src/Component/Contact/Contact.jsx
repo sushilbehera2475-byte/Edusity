@@ -22,18 +22,20 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form>
-            <label htmlFor="name">Your Name</label>
-            <input type="text" placeholder='Enter Your Name'  required/>
+            <div><label htmlFor="name">Your Name</label>
+            <input type="text" placeholder='Enter Your Name'  required/></div>
 
-            <label htmlFor="tel">Your Phone Number</label>
-            <input type="tel" placeholder='Enter Phone Number'required />
+            <div><label htmlFor="tel">Your Phone Number</label>
+            <input type="tel" placeholder='Enter Phone Number'required /></div>
 
             {/* <label htmlFor="email">Your Email</label>
             <input type="email" placeholder='Your Email' /> */}
 
-            <label htmlFor="message">Write your Message here</label>
+            <div>
+              <label htmlFor="message">Write your Message here</label>
             <textarea name="message"
             rows="6" id="message" placeholder='Enter Your Message' required></textarea>
+            </div>
 
             <button type='submit' className='btn dark-btn'>Submit now</button>
         </form>
