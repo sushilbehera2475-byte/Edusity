@@ -20,12 +20,12 @@ const Contact = () => {
 
         </ul>
       </div>
-      <div className="contact-col">
+      <div className="border-2 border-solid ...">
         <form>
-            <div><label htmlFor="name">Your Name</label>
+            <div className='border-2 border-solid ...'><label htmlFor="name">Your Name</label>
             <input type="text" placeholder='Enter Your Name'  required/></div>
 
-            <div><label htmlFor="tel">Your Phone Number</label>
+            <div className='border-2 border-solid ...'><label htmlFor="tel">Your Phone Number</label>
             <input type="tel" placeholder='Enter Phone Number'required /></div>
 
             {/* <label htmlFor="email">Your Email</label>
