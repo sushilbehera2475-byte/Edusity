@@ -31,9 +31,10 @@ const Contact = () => {
             {/* <label htmlFor="email">Your Email</label>
             <input type="email" placeholder='Your Email' /> */}
 
-            <div>
+            <div className='border-2 border-solid ...'>
               <label htmlFor="message">Write your Message here</label>
-            <textarea name="message"
+            <textarea
+             name="message"
             rows="6" id="message" placeholder='Enter Your Message' required></textarea>
             </div>
 
