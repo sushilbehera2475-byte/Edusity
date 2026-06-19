@@ -20,26 +20,62 @@ const Contact = () => {
 
         </ul>
       </div>
-      <div className="bg-blue-300 p-4 rounded-lg">
-        <form>
-            <div className='border-2 border-solid ... mt-4 p-4'><label htmlFor="name">Your Name</label>
-            <input type="text" placeholder='Enter Your Name'  required/></div>
-
-            <div className='border-2 border-solid ...'><label htmlFor="tel">Your Phone Number</label>
-            <input type="tel" placeholder='Enter Phone Number'required /></div>
-
-            {/* <label htmlFor="email">Your Email</label>
-            <input type="email" placeholder='Your Email' /> */}
-
-            <div className='border-2 border-solid ...'>
-              <label htmlFor="message">Write your Message here</label>
-            <textarea
-             name="message"
-            rows="6" id="message" placeholder='Enter Your Message' required></textarea>
+      <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <form action="#" method="POST" className="space-y-6">
+            <div>
+              <label htmlFor="email" className="block text-sm/6 font-medium text-gray-100">
+                Email address
+              </label>
+              <div className="mt-2">
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  autoComplete="email"
+                  className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                />
+              </div>
             </div>
 
-            <button type='submit' className='btn dark-btn'>Submit now</button>
-        </form>
+            <div>
+              <div className="flex items-center justify-between">
+                <label htmlFor="password" className="block text-sm/6 font-medium text-gray-100">
+                  Password
+                </label>
+                <div className="text-sm">
+                  <a href="#" className="font-semibold text-indigo-400 hover:text-indigo-300">
+                    Forgot password?
+                  </a>
+                </div>
+              </div>
+              <div className="mt-2">
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  autoComplete="current-password"
+                  className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                className="flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              >
+                Sign in
+              </button>
+            </div>
+          </form>
+          <p className="mt-10 text-center text-sm/6 text-gray-400">
+            Not a member?{' '}
+            <a href="#" className="font-semibold text-indigo-400 hover:text-indigo-300">
+              Start a 14 day free trial
+            </a>
+          </p>
       </div>
     </div>
   )
