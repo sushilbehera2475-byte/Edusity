@@ -20,7 +20,7 @@ const Contact = () => {
 
         </ul>
       </div>
-      <div className="bg-blue-100 p-4 rounded-lg">
+      <div className="bg-blue-300 p-4 rounded-lg">
         <form>
             <div className='border-2 border-solid ... mt-4 p-4'><label htmlFor="name">Your Name</label>
             <input type="text" placeholder='Enter Your Name'  required/></div>
